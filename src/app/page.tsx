@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Header from "./components/Header/header";
 import heroImage from "./assets/hero.jpg";
+import banner from "./assets/banner.jpg";
 import WelcomeMessage from "./components/Header/WelcomeMessahe/welcome-message";
 import Intro from "./components/Header/Intro/intro";
 
@@ -35,6 +36,20 @@ export default function Home() {
         </div>
       </div>
       <Intro />
+      <div className="relative">
+        <div className="bg-[#00000085] absolute top-0 left-0 h-[400px] w-full flex justify-center items-center">
+          <div className="text-white text-[40px] font-extralight cursive-font">
+            Food For the Soul
+          </div>
+        </div>
+        <Image
+          src={banner}
+          width={1280}
+          height={500}
+          alt="banner"
+          className="h-[400px] w-full"
+        />
+      </div>
     </div>
   );
 }

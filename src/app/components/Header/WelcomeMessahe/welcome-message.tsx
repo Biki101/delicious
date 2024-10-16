@@ -3,7 +3,9 @@ export default function WelcomeMessage() {
     <div className="z-[1]">
       <div className="outer-container flex justify-center">
         <div className="bg-[#000000c4] w-fit flex flex-col justify-center items-center p-[16px] px-[50px] mb-[20px]">
-          <div className="text-[#b49383] font-bold text-[45px]">Delicious</div>
+          <div className="text-[#b49383] font-bold text-[45px] cursive-font">
+            Delicious
+          </div>
           <div className="text-white text-[30px]">
             A place to get extraordinary experience!
           </div>

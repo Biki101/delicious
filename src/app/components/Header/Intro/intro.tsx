@@ -7,7 +7,7 @@ export default function Intro() {
     <div className="outer-container">
       <div className="relative">
         <div className="absolute top-[200px] w-[600px] bg-white border-[2px] border-[var(--gold-color)] p-[50px] left-0">
-          <div className="text-[36px] text-[var(--gold-color)]">
+          <div className="text-[36px] text-[var(--gold-color)] cursive-font">
             Something New
           </div>
           <div className="text-[25px]">An Extra Ordinary Experience</div>

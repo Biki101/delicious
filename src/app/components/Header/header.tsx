@@ -4,7 +4,7 @@ export default function Header() {
       <div className="outer-container text-white ">
         <div className="flex justify-between items-center">
           <div className="flex flex-col text-[18px] items-center justify-center">
-            <div className="font-bold">Delicious</div>
+            <div className="font-bold cursive-font text-[30px]">Delicious</div>
             <div>Hungry? Try Delicious</div>
           </div>
           <div className="flex gap-[20px] text-[14px] font-semibold">
