@@ -1,10 +1,11 @@
 import Image from "next/image";
 import Header from "./components/Header/header";
 import heroImage from "./assets/hero.jpg";
+import WelcomeMessage from "./components/Header/WelcomeMessahe/welcome-message";
 
 export default function Home() {
   return (
-    <div className="flex flex-col relative">
+    <div className="flex flex-col justify-between relative h-[100vh]">
       {/* hero Image */}
       <Image
         src={heroImage}
@@ -15,6 +16,21 @@ export default function Home() {
       />
       {/* hero Image End */}
       <Header />
+      <WelcomeMessage />
+      <div className="z-[1] slide-top mx-auto">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          height="30"
+          viewBox="0 0 24 24"
+          width="30"
+        >
+          <path d="M0 0h24v24H0z" fill="none" />
+          <path
+            d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"
+            fill="white"
+          />
+        </svg>
+      </div>
     </div>
   );
 }

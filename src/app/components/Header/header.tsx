@@ -27,7 +27,10 @@ export default function Header() {
               CONTACT
             </div>
           </div>
-          <div className="border-[1px] border-white p-[10px] px-[20px] text-[12px] cursor-pointer">
+          <div
+            className="border-[1px] border-white p-[10px] px-[20px] text-[12px] cursor-pointer"
+            title="Reservations"
+          >
             Reservations: +977 901010101010
           </div>
         </div>
