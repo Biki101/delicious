@@ -5,6 +5,7 @@ import banner from "./assets/banner.jpg";
 import WelcomeMessage from "./components/WelcomeMessahe/welcome-message";
 import Intro from "./components/Intro/intro";
 import TodaySpecial from "./components/TodaySpecial/today-special";
+import Menu from "./components/Menu/menu";
 
 export default function Home() {
   return (
@@ -54,6 +55,7 @@ export default function Home() {
       </div>
       {/* banner end*/}
       <TodaySpecial />
+      <Menu />
     </div>
   );
 }
