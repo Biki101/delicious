@@ -2,8 +2,8 @@ import Image from "next/image";
 import Header from "./components/Header/header";
 import heroImage from "./assets/hero.jpg";
 import banner from "./assets/banner.jpg";
-import WelcomeMessage from "./components/Header/WelcomeMessahe/welcome-message";
-import Intro from "./components/Header/Intro/intro";
+import WelcomeMessage from "./components/WelcomeMessahe/welcome-message";
+import Intro from "./components/Intro/intro";
 
 export default function Home() {
   return (
@@ -36,6 +36,7 @@ export default function Home() {
         </div>
       </div>
       <Intro />
+      {/* banner */}
       <div className="relative">
         <div className="bg-[#00000085] absolute top-0 left-0 h-[400px] w-full flex justify-center items-center">
           <div className="text-white text-[40px] font-extralight cursive-font">
@@ -50,6 +51,7 @@ export default function Home() {
           className="h-[400px] w-full"
         />
       </div>
+      {/* banner end*/}
     </div>
   );
 }

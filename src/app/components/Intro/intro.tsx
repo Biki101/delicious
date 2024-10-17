@@ -1,6 +1,6 @@
 import Image from "next/image";
-import introChef from "../../../assets/intro-chef.png";
-import chefWithDish from "../../../assets/chef-with-dish-intro.jpg";
+import introChef from "../../assets/intro-chef.png";
+import chefWithDish from "../../assets/chef-with-dish-intro.jpg";
 
 export default function Intro() {
   return (
