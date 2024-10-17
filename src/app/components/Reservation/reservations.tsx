@@ -4,7 +4,7 @@ import ReservationButton from "../ReservationButton/reservation-button";
 
 export default function Reservation() {
   return (
-    <div className="my-[50px]">
+    <div className="mt-[50px]">
       <div className="h-[470px] flex justify-center items-center relative">
         <Image
           src={reservation}

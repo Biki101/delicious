@@ -7,6 +7,7 @@ import Intro from "./components/Intro/intro";
 import TodaySpecial from "./components/TodaySpecial/today-special";
 import Menu from "./components/Menu/menu";
 import Reservation from "./components/Reservation/reservations";
+import Footer from "./components/Footer/footer";
 
 export default function Home() {
   return (
@@ -58,14 +59,7 @@ export default function Home() {
       <TodaySpecial />
       <Menu />
       <Reservation />
+      <Footer />
     </div>
   );
 }
-
-// const divStyle = {
-//   backgroundImage: url('/../app/assets/hero.jpg'),
-//   backgroundSize: "cover", // or 'contain' based on your needs
-//   backgroundPosition: "center",
-//   height: "100vh", // Set the height you want
-//   width: "100%", // Set the width you want
-// };

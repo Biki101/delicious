@@ -2,7 +2,7 @@ import ReservationButton from "../ReservationButton/reservation-button";
 
 export default function Header() {
   return (
-    <div className="z-[1] bg-[#000000cc] h-[110px] flex items-center">
+    <div className="z-[100] bg-[#000000cc] h-[110px] flex items-center sticky top-0 left-0">
       <div className="outer-container text-white ">
         <div className="flex justify-between items-center">
           <div className="flex flex-col text-[18px] items-center justify-center">
