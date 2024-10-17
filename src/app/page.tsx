@@ -6,6 +6,7 @@ import WelcomeMessage from "./components/WelcomeMessahe/welcome-message";
 import Intro from "./components/Intro/intro";
 import TodaySpecial from "./components/TodaySpecial/today-special";
 import Menu from "./components/Menu/menu";
+import Reservation from "./components/Reservation/reservations";
 
 export default function Home() {
   return (
@@ -56,6 +57,7 @@ export default function Home() {
       {/* banner end*/}
       <TodaySpecial />
       <Menu />
+      <Reservation />
     </div>
   );
 }
