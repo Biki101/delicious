@@ -11,6 +11,7 @@
   --foreground: #171717;
   --primary-color: rgba(165, 42, 42, 0.815);
   --gold-color: #af9608;
+  --placeholder-color: gray;
 }
 
 @media (prefers-color-scheme: dark) {
