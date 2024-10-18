@@ -12,7 +12,8 @@ import Footer from "./components/Footer/footer";
 export default function Home() {
   return (
     <div>
-      <div className="flex flex-col justify-between relative h-[100vh]">
+      <Header />
+      <div className="flex flex-col justify-center relative h-[100vh]">
         {/* hero Image */}
         <Image
           src={heroImage}
@@ -22,9 +23,8 @@ export default function Home() {
           alt="hero image"
         />
         {/* hero Image End */}
-        <Header />
         <WelcomeMessage />
-        <div className="z-[1] slide-top mx-auto">
+        <div className="z-[1] slide-top mx-auto mt-[150px]">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             height="30"
