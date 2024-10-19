@@ -1,8 +1,8 @@
-import Image from "next/image";
 import Footer from "../components/Footer/footer";
 import Header from "../components/Header/header";
 import PageHeader from "../components/PageHeader/page-header";
 import MenuSection from "../components/MenuSection/menu-section";
+import SignatureDishes from "../components/SignatureDishes/signature-dishes";
 
 export default function MenuPage() {
   return (
@@ -38,6 +38,8 @@ export default function MenuPage() {
         </div>
         <MenuSection />
       </div>
+      <div className="h-[1px] w-full bg-[var(--gold-color)] my-[50px]"></div>
+      <SignatureDishes />
       <Footer />
     </div>
   );

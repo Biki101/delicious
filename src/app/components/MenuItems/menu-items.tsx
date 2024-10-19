@@ -6,8 +6,8 @@ interface MenuItemProps {
 
 export default function MenuItems({ dishName, price, options }: MenuItemProps) {
   return (
-    <div className="w-full">
-      <div className="mt-[10px] flex justify-between">
+    <div className="w-[350px]">
+      <div className="mt-[10px] flex justify-between w-full">
         <div>{dishName}</div>
         <div>$ {price}</div>
       </div>

@@ -19,27 +19,27 @@ export default function MenuSection() {
         <MenuHeading label="Starters" />
         <div className="flex flex-col gap-[20px]">
           <MenuItems
-            dishName="Katti Roll Myoneese Sprinkles Perry Sauce"
+            dishName="Katti Roll Myoneese Sauce"
             options="Chicken / Buff / Black Pepper / Veggies"
             price="20"
           />
           <MenuItems
-            dishName="Katti Roll Myoneese Sprinkles Perry Sauce"
+            dishName="Katti Roll Myoneese Sauce"
             options="Chicken / Buff / Black Pepper / Veggies"
             price="22"
           />
           <MenuItems
-            dishName="Katti Roll Myoneese Sprinkles Perry Sauce"
+            dishName="Katti Roll Myoneese Sauce"
             options="Chicken / Buff / Black Pepper / Veggies"
             price="26"
           />
           <MenuItems
-            dishName="Katti Roll Myoneese Sprinkles Perry Sauce"
+            dishName="Katti Roll Myoneese Sauce"
             options="Chicken / Buff / Black Pepper / Veggies"
             price="29"
           />
           <MenuItems
-            dishName="Katti Roll Myoneese Sprinkles Perry Sauce"
+            dishName="Katti Roll Myoneese Sauce"
             options="Chicken / Buff / Black Pepper / Veggies"
             price="37"
           />
@@ -57,32 +57,32 @@ export default function MenuSection() {
         <MenuHeading label="Main" />
         <div className="flex flex-col gap-[20px]">
           <MenuItems
-            dishName="Katti Roll Myoneese Sprinkles Perry Sauce"
+            dishName="Katti Roll Myoneese Sauce"
             options="Chicken / Buff / Black Pepper / Veggies"
             price="20"
           />
           <MenuItems
-            dishName="Katti Roll Myoneese Sprinkles Perry Sauce"
+            dishName="Katti Roll Myoneese Sauce"
             options="Chicken / Buff / Black Pepper / Veggies"
             price="22"
           />
           <MenuItems
-            dishName="Katti Roll Myoneese Sprinkles Perry Sauce"
+            dishName="Katti Roll Myoneese Sauce"
             options="Chicken / Buff / Black Pepper / Veggies"
             price="26"
           />
           <MenuItems
-            dishName="Katti Roll Myoneese Sprinkles Perry Sauce"
+            dishName="Katti Roll Myoneese Sauce"
             options="Chicken / Buff / Black Pepper / Veggies"
             price="29"
           />
           <MenuItems
-            dishName="Katti Roll Myoneese Sprinkles Perry Sauce"
+            dishName="Katti Roll Myoneese Sauce"
             options="Chicken / Buff / Black Pepper / Veggies"
             price="37"
           />
           <MenuItems
-            dishName="Katti Roll Myoneese Sprinkles Perry Sauce"
+            dishName="Katti Roll Myoneese Sauce"
             options="Chicken / Buff / Black Pepper / Veggies"
             price="37"
           />
@@ -99,27 +99,27 @@ export default function MenuSection() {
         <MenuHeading label="Deserts" />
         <div>
           <MenuItems
-            dishName="Katti Roll Myoneese Sprinkles Perry Sauce"
+            dishName="Katti Roll Myoneese Sauce"
             options="Chicken / Buff / Black Pepper / Veggies"
             price="20"
           />
           <MenuItems
-            dishName="Katti Roll Myoneese Sprinkles Perry Sauce"
+            dishName="Katti Roll Myoneese Sauce"
             options="Chicken / Buff / Black Pepper / Veggies"
             price="22"
           />
           <MenuItems
-            dishName="Katti Roll Myoneese Sprinkles Perry Sauce"
+            dishName="Katti Roll Myoneese Sauce"
             options="Chicken / Buff / Black Pepper / Veggies"
             price="26"
           />
           <MenuItems
-            dishName="Katti Roll Myoneese Sprinkles Perry Sauce"
+            dishName="Katti Roll Myoneese Sauce"
             options="Chicken / Buff / Black Pepper / Veggies"
             price="29"
           />
           <MenuItems
-            dishName="Katti Roll Myoneese Sprinkles Perry Sauce"
+            dishName="Katti Roll Myoneese Sauce"
             options="Chicken / Buff / Black Pepper / Veggies"
             price="37"
           />
