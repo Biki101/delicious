@@ -24,7 +24,7 @@ export default function Header() {
               ABOUT US
             </Link>
             <Link
-              href="about-us"
+              href="menu"
               className="cursor-pointer hover:text-[brown] transition-colors"
             >
               MENU
