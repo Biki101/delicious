@@ -4,7 +4,7 @@ interface PrimaryButtonProps {
 
 export default function PrimaryButton({ buttonLabel }: PrimaryButtonProps) {
   return (
-    <div className="border-[2px] border-[var(--gold-color)] w-fit px-[16px] py-[8px] text-[var(--gold-color)]">
+    <div className="border-[2px] border-[var(--gold-color)] cursor-pointer w-fit px-[16px] py-[8px] text-[var(--gold-color)] text-[13px]">
       {buttonLabel}
     </div>
   );
