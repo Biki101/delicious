@@ -1,8 +1,11 @@
-import Image from "next/image";
-import introChef from "../../assets/intro-chef.png";
-import chefWithDish from "../../assets/chef-with-dish-intro.jpg";
+import Image, { StaticImageData } from "next/image";
 
-export default function Intro() {
+interface PrimaryButtonProps {
+  image1: StaticImageData;
+  image2: StaticImageData;
+}
+
+export default function Intro({ image1, image2 }: PrimaryButtonProps) {
   return (
     <div className="outer-container">
       <div className="relative">
@@ -20,14 +23,14 @@ export default function Intro() {
       </div>
       <div className="h-[700px] flex gap-[30px] justify-end items-center">
         <Image
-          src={introChef}
+          src={image1}
           width={350}
           height={560}
           className="w-[350px] h-[560px]"
           alt="intro-chef"
         />
         <Image
-          src={chefWithDish}
+          src={image2}
           width={350}
           height={560}
           alt="intro-chef"

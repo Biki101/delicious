@@ -7,6 +7,8 @@ import Intro from "./components/Intro/intro";
 import TodaySpecial from "./components/TodaySpecial/today-special";
 import Menu from "./components/Menu/menu";
 import Footer from "./components/Footer/footer";
+import introChef from "./assets/intro-chef.png";
+import chefWithDish from "./assets/chef-with-dish-intro.jpg";
 
 export default function Home() {
   return (
@@ -38,7 +40,7 @@ export default function Home() {
           </svg>
         </div>
       </div>
-      <Intro />
+      <Intro image1={introChef} image2={chefWithDish} />
       {/* banner */}
       <div className="relative">
         <div className="bg-[#00000085] absolute top-0 left-0 h-[400px] w-full flex justify-center items-center">
