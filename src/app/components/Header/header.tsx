@@ -42,7 +42,7 @@ export default function Header() {
               BLOG
             </Link>
             <Link
-              href="blog"
+              href="/contact"
               className="cursor-pointer hover:text-[brown] transition-colors"
             >
               CONTACT
