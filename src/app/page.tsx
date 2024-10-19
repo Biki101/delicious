@@ -2,11 +2,10 @@ import Image from "next/image";
 import Header from "./components/Header/header";
 import heroImage from "./assets/hero.jpg";
 import banner from "./assets/banner.jpg";
-import WelcomeMessage from "./components/WelcomeMessahe/welcome-message";
+import WelcomeMessage from "./components/WelcomeMessage/welcome-message";
 import Intro from "./components/Intro/intro";
 import TodaySpecial from "./components/TodaySpecial/today-special";
 import Menu from "./components/Menu/menu";
-import Reservation from "./components/Reservation/reservations";
 import Footer from "./components/Footer/footer";
 
 export default function Home() {
@@ -58,7 +57,6 @@ export default function Home() {
       {/* banner end*/}
       <TodaySpecial />
       <Menu />
-      <Reservation />
       <Footer />
     </div>
   );
