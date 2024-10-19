@@ -24,25 +24,25 @@ export default function Header() {
               ABOUT US
             </Link>
             <Link
-              href="menu"
+              href="/menu"
               className="cursor-pointer hover:text-[brown] transition-colors"
             >
               MENU
             </Link>
-            <Link
+            {/* <Link
               href="about-us"
               className="cursor-pointer hover:text-[brown] transition-colors"
             >
               DELIVERY
-            </Link>
+            </Link> */}
             <Link
-              href="about-us"
+              href="/blog"
               className="cursor-pointer hover:text-[brown] transition-colors"
             >
               BLOG
             </Link>
             <Link
-              href="about-us"
+              href="blog"
               className="cursor-pointer hover:text-[brown] transition-colors"
             >
               CONTACT
