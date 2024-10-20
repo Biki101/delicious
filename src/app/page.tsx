@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <div className="flex flex-col justify-center relative h-[50vh] lg:h-[100vh]">
+      <div className="flex flex-col justify-center relative  xsm:h-[50vh] lg:h-[100vh]">
         {/* hero Image */}
         <Image
           src={heroImage}
@@ -40,7 +40,7 @@ export default function Home() {
           </svg>
         </div>
       </div>
-      {/* <Intro image1={introChef} image2={chefWithDish} /> */}
+      <Intro image1={introChef} image2={chefWithDish} />
       {/* banner */}
       {/* <div className="relative">
         <div className="bg-[#00000085] absolute top-0 left-0 h-[400px] w-full flex justify-center items-center">
