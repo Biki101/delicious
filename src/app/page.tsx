@@ -14,17 +14,17 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <div className="flex flex-col justify-center relative h-[100vh]">
-        {/* hero Image */}
-        <Image
+      {/* <div className="flex flex-col justify-center relative h-[100vh]"> */}
+      {/* hero Image */}
+      {/* <Image
           src={heroImage}
           width={1920}
           height={180}
           className="h-[100vh] w-full absolute top-0 left-0 z-[0]"
           alt="hero image"
-        />
-        {/* hero Image End */}
-        <WelcomeMessage />
+        /> */}
+      {/* hero Image End */}
+      {/* <WelcomeMessage />
         <div className="z-[1] slide-top mx-auto mt-[150px]">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -39,10 +39,10 @@ export default function Home() {
             />
           </svg>
         </div>
-      </div>
-      <Intro image1={introChef} image2={chefWithDish} />
+      </div> */}
+      {/* <Intro image1={introChef} image2={chefWithDish} /> */}
       {/* banner */}
-      <div className="relative">
+      {/* <div className="relative">
         <div className="bg-[#00000085] absolute top-0 left-0 h-[400px] w-full flex justify-center items-center">
           <div className="text-white text-[40px] font-extralight cursive-font">
             Food For the Soul
@@ -55,11 +55,11 @@ export default function Home() {
           alt="banner"
           className="h-[400px] w-full"
         />
-      </div>
+      </div> */}
       {/* banner end*/}
-      <TodaySpecial />
-      <Menu />
-      <Footer />
+      {/* <TodaySpecial /> */}
+      {/* <Menu /> */}
+      {/* <Footer /> */}
     </div>
   );
 }
