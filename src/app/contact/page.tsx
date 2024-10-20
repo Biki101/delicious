@@ -7,9 +7,9 @@ export default function ContactPage() {
     <div>
       <Header />
       <PageHeader title="Contact" />
-      <div className="my-[50px] flex outer-container">
-        <div className="flex justify-start">
-          <div className="w-1/2">
+      <div className="my-[50px] flex flex-wrap justify-center w-full px-[20px] xl:px-[0px] xl:w-[1280px] xl:m-auto pt-[20px]">
+        <div className="flex justify-center flex-wrap">
+          <div className="w-full xsm:w-[460px]">
             <div>
               <div>Contact Info</div>
               <div className=" mt-[12px] text-[13px] text-[var(--placeholder-color)]">
@@ -28,7 +28,7 @@ export default function ContactPage() {
               </div>
             </div>
           </div>
-          <div className="w-fit p-[50px] h-[300px]  flex flex-col gap-[16px] justify-between items-between text-[13px]">
+          <div className="w-[400px] p-[50px] h-[300px]  flex flex-col gap-[16px] justify-between items-between text-[13px]">
             <div className="flex flex-col gap-[18px]">
               <div className=" flex justify-between gap-[12px]">
                 <div className="flex items-center gap-[6px]">
