@@ -10,8 +10,8 @@ export default function Blog() {
     <div>
       <Header />
       <PageHeader title="Our Blog" />
-      <div className="outer-container flex justify-center gap-[50px] my-[50px]">
-        <div className="w-1/3 flex flex-col gap-[50px]">
+      <div className="xl:w-[1280px] xl:m-auto flex flex-wrap justify-center gap-[50px] my-[50px] pt-[20px]">
+        <div className="w-full xsm:w-[427px] flex flex-col gap-[50px] px-[20px]">
           <BlogCard
             author="John Doe"
             category="Lifestyle"
@@ -58,7 +58,7 @@ export default function Blog() {
             image={image}
           />
         </div>
-        <div className="w-1/3 pt-[50px] flex flex-col gap-[50px]">
+        <div className="w-full xsm:w-[427px] pt-[50px] flex flex-col gap-[50px] px-[20px]">
           <BlogCard
             author="John Doe"
             category="Lifestyle"
@@ -106,7 +106,7 @@ export default function Blog() {
           />
         </div>
       </div>
-      <div className="flex justify-center ">
+      <div className="flex justify-center xl:mt-[20px]">
         <PrimaryButton buttonLabel="Load More" />
       </div>
       <Footer />
