@@ -12,7 +12,9 @@ export default function AboutUs() {
     <div>
       <Header />
       <PageHeader title="About Us" />
-      <Intro image1={introChef} image2={chefWithDish} />
+      <div className="pb-[100px] pd:mb-0">
+        <Intro image1={introChef} image2={chefWithDish} />
+      </div>
       <MeetTheChefs />
       <Testimonials />
       <Footer />

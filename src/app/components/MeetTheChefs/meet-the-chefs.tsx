@@ -6,7 +6,7 @@ import chef4 from "../../assets/chef_4.jpg";
 
 export default function MeetTheChefs() {
   return (
-    <div className="outer-container flex flex-col">
+    <div className="px-[20px] w-full xl:w-[1280px] xl:m-auto flex flex-col">
       <div className="text-[36px] text-[var(--gold-color)] cursive-font">
         Something New
       </div>
@@ -27,7 +27,7 @@ export default function MeetTheChefs() {
           Incidunt, sequi.
         </div>
       </div>
-      <div className="flex justify-between gap-[20px] mt-[100px]">
+      <div className="flex flex-wrap  justify-center xl:justify-between gap-[20px] mt-[100px]">
         <ChefCard image={chef1} designation="Top Chef" name="Anna Doe" />
         <ChefCard image={chef2} designation="Shushi Chef" name="Anna Doe" />
         <ChefCard image={chef3} designation="Chicken Chef" name="Anna Doe" />
