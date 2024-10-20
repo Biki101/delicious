@@ -7,7 +7,7 @@ export default function ContactPage() {
     <div>
       <Header />
       <PageHeader title="Contact" />
-      <div className="my-[50px] flex flex-wrap justify-center w-full px-[20px] xl:px-[0px] xl:w-[1280px] xl:m-auto pt-[20px]">
+      <div className="my-[50px] flex flex-wrap justify-center w-full px-[20px] xl:px-[0px] xl:w-[1280px] xl:m-auto pt-[50px]">
         <div className="flex justify-center flex-wrap">
           <div className="w-full xsm:w-[460px]">
             <div>

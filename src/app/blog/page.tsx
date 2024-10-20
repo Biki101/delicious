@@ -10,7 +10,7 @@ export default function Blog() {
     <div>
       <Header />
       <PageHeader title="Our Blog" />
-      <div className="xl:w-[1280px] xl:m-auto flex flex-wrap justify-center gap-[50px] my-[50px] pt-[20px]">
+      <div className="xl:w-[1280px] xl:m-auto flex flex-wrap justify-center gap-[50px] my-[50px] pt-[50px]">
         <div className="w-full xsm:w-[427px] flex flex-col gap-[50px] px-[20px]">
           <BlogCard
             author="John Doe"
