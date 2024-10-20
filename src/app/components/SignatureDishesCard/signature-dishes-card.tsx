@@ -16,11 +16,11 @@ export default function SignatureDishesCard({
   image,
 }: SignatureDishCardProps) {
   return (
-    <div className="w-full">
-      <div className="w-1/2 flex justify-between gap-[20px] items-center">
+    <div className="w-full flex justify-center">
+      <div className="w-1/2 flex justify-center gap-[20px] items-center">
         <div className="">
           <FiveStars />
-          <div className="mt-[10px] flex justify-between w-[350px]">
+          <div className="mt-[10px] flex justify-between w-[150px] sm:w-[350px]">
             <div>{title}</div>
             <div>$ {price}</div>
           </div>
@@ -36,7 +36,7 @@ export default function SignatureDishesCard({
           alt="dish-image"
           width={600}
           height={600}
-          className="w-[200px] h-[200px]"
+          className="w-1/2 h-auto"
         />
       </div>
     </div>
