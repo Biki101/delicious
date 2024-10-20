@@ -57,7 +57,7 @@ export default function Home() {
         />
       </div>
       {/* banner end*/}
-      {/* <TodaySpecial /> */}
+      <TodaySpecial />
       {/* <Menu /> */}
       {/* <Footer /> */}
     </div>
