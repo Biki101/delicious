@@ -7,8 +7,8 @@ import menuImage3 from "../../assets/menu-image3.jpg";
 
 export default function MenuSection() {
   return (
-    <div className="flex gap-[20px]">
-      <div className="w-1/3 border-[1px] border-[var(--gold-color)] p-[24px] flex flex-col items-center gap-[25px] h-fit hover:shadow-sm hover:shadow-[#00000079]">
+    <div className="flex flex-wrap justify-center gap-[20px]">
+      <div className="w-1/3 min-w-[370px] max-w-[400px]  border-[1px] border-[var(--gold-color)] p-[24px] flex flex-col items-center gap-[25px] h-fit hover:shadow-sm hover:shadow-[#00000079]">
         <Image
           src={menuImage3}
           width={550}
@@ -45,7 +45,7 @@ export default function MenuSection() {
           />
         </div>
       </div>
-      <div className="w-1/3 border-[1px] border-[var(--gold-color)] p-[24px] flex flex-col items-center gap-[25px] h-fit hover:shadow-sm hover:shadow-[#00000079]">
+      <div className="w-1/3 min-w-[370px] max-w-[400px] border-[1px] border-[var(--gold-color)] p-[24px] flex flex-col items-center gap-[25px] h-fit hover:shadow-sm hover:shadow-[#00000079]">
         <Image
           src={menuImage1}
           width={550}
@@ -88,7 +88,7 @@ export default function MenuSection() {
           />
         </div>
       </div>
-      <div className="w-1/3 border-[1px] border-[var(--gold-color)] p-[24px] flex flex-col items-center gap-[25px] h-fit hover:shadow-sm hover:shadow-[#00000079]">
+      <div className="w-1/3 min-w-[370px] max-w-[400px] border-[1px] border-[var(--gold-color)] p-[24px] flex flex-col items-center gap-[25px] h-fit hover:shadow-sm hover:shadow-[#00000079]">
         <Image
           src={menuImage2}
           width={550}

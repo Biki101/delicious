@@ -3,7 +3,7 @@ import MenuSection from "../MenuSection/menu-section";
 
 export default function Menu() {
   return (
-    <div className="outer-container flex flex-col gap-[40px]">
+    <div className="w-full xl:w-[1280px] m-auto flex flex-col gap-[40px]">
       {/* Menu Header */}
       <div className="h-[150px] bg-black w-full p-[22px]">
         <div className="border-[2px] border-[var(--gold-color)] w-full h-full flex flex-col items-center justify-center ">
