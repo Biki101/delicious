@@ -3,7 +3,7 @@ import Reservation from "../Reservation/reservations";
 export default function Footer() {
   return (
     <div>
-      {/* <Reservation /> */}
+      <Reservation />
       <div className="bg-[#131212]">
         <div className="w-full xl:w-[1280px] m-auto py-[50px] flex  flex-col lg:flex-row justify-between items-center gap-[50px]">
           <div className="flex flex-col text-[18px] items-center justify-center text-white">
