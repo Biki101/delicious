@@ -42,9 +42,9 @@ export default function Home() {
       </div>
       <Intro image1={introChef} image2={chefWithDish} />
       {/* banner */}
-      {/* <div className="relative">
+      <div className="relative mt-[150px] md:mt-0">
         <div className="bg-[#00000085] absolute top-0 left-0 h-[400px] w-full flex justify-center items-center">
-          <div className="text-white text-[40px] font-extralight cursive-font">
+          <div className="text-white text-[30px] sm:text-[40px] font-extralight cursive-font">
             Food For the Soul
           </div>
         </div>
@@ -55,7 +55,7 @@ export default function Home() {
           alt="banner"
           className="h-[400px] w-full"
         />
-      </div> */}
+      </div>
       {/* banner end*/}
       {/* <TodaySpecial /> */}
       {/* <Menu /> */}
