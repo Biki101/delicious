@@ -3,9 +3,9 @@ import Reservation from "../Reservation/reservations";
 export default function Footer() {
   return (
     <div>
-      <Reservation />
+      {/* <Reservation /> */}
       <div className="bg-[#131212]">
-        <div className="outer-container py-[50px] flex justify-between items-center gap-[50px]">
+        <div className="w-full xl:w-[1280px] m-auto py-[50px] flex  flex-col lg:flex-row justify-between items-center gap-[50px]">
           <div className="flex flex-col text-[18px] items-center justify-center text-white">
             <div className="font-bold cursive-font text-[30px]">Delicious</div>
             <div className="text-[13px] w-[200px] flex justify-center">
@@ -38,13 +38,13 @@ export default function Footer() {
               <div>All Rights Reserved. 2024</div>
             </div>
           </div>
-          <div className="text-[13px] text-[var(--placeholder-color)]">
+          <div className="text-[13px] text-[var(--placeholder-color)]  min-w-[300px] mx-[20px]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nam
             similique aperiam, ex provident dolores deleniti mollitia nemo,
             laborum autem incidunt laudantium perferendis error facilis
             architecto, ea et. Qui, id.
           </div>
-          <div className="flex flex-col gap-[5px] w-[340px]">
+          <div className="flex flex-col gap-[5px] min-w-[240px] mr-[20px] xl:mr-[0]">
             <div className="flex text-white text-[13px]  justify-between items-center gap-[5px]">
               <div className="bg-[var(--gold-color)] px-[8px] w-[70px] text-center">
                 Address
