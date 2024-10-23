@@ -13,10 +13,10 @@ export default function Intro({ image1, image2 }: PrimaryButtonProps) {
           <div className="text-[36px] text-[var(--gold-color)] cursive-font">
             Something New
           </div>
-          <div className="text-[18px] md:text-[25px]">
+          <div className="text-[18px] md:text-[25px] text-[#000]">
             An Extra Ordinary Experience
           </div>
-          <div className="mt-[10px] text-justify">
+          <div className="mt-[10px] text-justify text-[#000]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
             labore quidem, officiis eos animi iure, atque sunt fugiat magni. et
             sit eveniet, ab porro commodi perferendis non!
