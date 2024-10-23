@@ -9,7 +9,7 @@ export default function Testimonials() {
         height={550}
         width={1280}
         alt="testimonial"
-        className="absolute top-0 left-0 z-[-1] w-full h-[300px] xsm:h-auto"
+        className="absolute top-0 left-0 z-[-1] w-full h-[600px] "
       />
       <div className=" flex flex-col justify-center items-center h-[200px] pt-[20px] md:pt-[0px] md:h-[300px] lg:h-[550px] gap-[12px] z-[2]">
         <div className="text-[#b49383] font-bold text-[18px] md:text-[25px] cursive-font">

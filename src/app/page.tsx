@@ -9,6 +9,7 @@ import Menu from "./components/Menu/menu";
 import Footer from "./components/Footer/footer";
 import introChef from "./assets/intro-chef.png";
 import chefWithDish from "./assets/chef-with-dish-intro.jpg";
+import Testimonials from "./components/Testimonials/testimonials";
 
 export default function Home() {
   return (
@@ -59,6 +60,7 @@ export default function Home() {
       {/* banner end*/}
       <TodaySpecial />
       <Menu />
+      <Testimonials />
       <Footer />
     </div>
   );
