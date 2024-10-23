@@ -10,6 +10,7 @@ import Footer from "./components/Footer/footer";
 import introChef from "./assets/intro-chef.png";
 import chefWithDish from "./assets/chef-with-dish-intro.jpg";
 import Testimonials from "./components/Testimonials/testimonials";
+import AboutOurRestaurant from "./components/AboutOurRestaurant/about-our-restaurant";
 
 export default function Home() {
   return (
@@ -60,6 +61,7 @@ export default function Home() {
       {/* banner end*/}
       <TodaySpecial />
       <Menu />
+      <AboutOurRestaurant />
       <Testimonials />
       <Footer />
     </div>
